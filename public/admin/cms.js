@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "0c1eb8509f9a638d3076";
+/******/ 	var hotCurrentHash = "f076ac8ee7c69c189dc4";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -922,8 +922,8 @@ setImmediate(function () {
   if (!reactHotLoader) {
     return;
   }
-  reactHotLoader.register(_netlifyIdentityWidget, "_netlifyIdentityWidget", "/Users/admin/zen.frontend/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
-  reactHotLoader.register(addLoginListener, "addLoginListener", "/Users/admin/zen.frontend/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+  reactHotLoader.register(_netlifyIdentityWidget, "_netlifyIdentityWidget", "/Users/admin/zen-frontend/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+  reactHotLoader.register(addLoginListener, "addLoginListener", "/Users/admin/zen-frontend/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
 })();
 ;
 (function () {
@@ -983,8 +983,8 @@ _netlifyCmsApp.default.registerPreviewStyle("cms.css");
   if (!reactHotLoader) {
     return;
   }
-  reactHotLoader.register(_netlifyCmsApp, "_netlifyCmsApp", "/Users/admin/zen.frontend/node_modules/gatsby-plugin-netlify-cms/cms.js");
-  reactHotLoader.register(_emitter, "_emitter", "/Users/admin/zen.frontend/node_modules/gatsby-plugin-netlify-cms/cms.js");
+  reactHotLoader.register(_netlifyCmsApp, "_netlifyCmsApp", "/Users/admin/zen-frontend/node_modules/gatsby-plugin-netlify-cms/cms.js");
+  reactHotLoader.register(_emitter, "_emitter", "/Users/admin/zen-frontend/node_modules/gatsby-plugin-netlify-cms/cms.js");
 })();
 ;
 (function () {
@@ -1654,9 +1654,9 @@ netlify_cms_app__WEBPACK_IMPORTED_MODULE_0___default.a.init({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/admin/zen.frontend/node_modules/gatsby-plugin-netlify-cms/cms.js */"./node_modules/gatsby-plugin-netlify-cms/cms.js");
-__webpack_require__(/*! /Users/admin/zen.frontend/node_modules/gatsby-plugin-netlify-cms/cms-identity.js */"./node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
-module.exports = __webpack_require__(/*! /Users/admin/zen.frontend/src/netlifycms/index.js */"./src/netlifycms/index.js");
+__webpack_require__(/*! /Users/admin/zen-frontend/node_modules/gatsby-plugin-netlify-cms/cms.js */"./node_modules/gatsby-plugin-netlify-cms/cms.js");
+__webpack_require__(/*! /Users/admin/zen-frontend/node_modules/gatsby-plugin-netlify-cms/cms-identity.js */"./node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+module.exports = __webpack_require__(/*! /Users/admin/zen-frontend/src/netlifycms/index.js */"./src/netlifycms/index.js");
 
 
 /***/ }),
